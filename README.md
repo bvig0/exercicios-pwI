@@ -2,7 +2,9 @@
 
 Este repositório contém exercícios práticos para a disciplina de **Programação Web I**, organizados em listas numeradas.
 
-## 📂 Listas de Exercícios  
+## 📂 Listas de Exercícios
+
+Estes Links vão direto para o código.
 
 - [📜 Lista 1 - Introdução ao HTML](pwI-lista-1)  
 - [📜 Lista 2 - Exercícios sobre estrutura](pwI-lista-2)  
@@ -14,7 +16,5 @@ Este repositório contém exercícios práticos para a disciplina de **Programa�
 - [📜 Lista 8 - Projeto - 1: craftsy-blended](./pwI-lista-8/pwI-lista-8.md)  
 
 ## 🚀 Outro Modo..  
-Clique no [link](https://github.com/bvig0/PW-I) e veja o Repositório original.
-
-
+Clique no [link](https://github.com/bvig0/PW-I) e veja o Repositório original. Caso tenha uma lista ou algum exercício faltando, acesse o [link](https://github.com/bvig0/PW-I) e confira.
 
