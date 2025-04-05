@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Pessoal</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Brian Vigo de Oliveira</h1>
+            <p>Desenvolvedor de Sistemas</p>
+        </div>
+    </header>
+
+    <!-- Foto de perfil e uma descrição -->
+    <section class="about">
+        <div class="container">
+            <div class="profile">
+                <img src="./src/brian.jpeg" alt="Foto de perfil">
+            </div>
+            <div class="description">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor iniciante, mas já demonstro grande interesse pela tecnologia. Mexo em tecnologias como HTML, CSS, um pouco de JavaScript e Python.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção das Habilidades -->
+    <section class="skills">
+        <div class="container">
+            <h2>Minhas Habilidades</h2>
+            <div class="skill-list">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Python</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção dos Projetos -->
+    <section class="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>PA-Python</h3>
+                <p>Lógica de programação usando Python no curso técnico de Desenvolvimento de Sistemas na Etec Irmã Agostina.</p>
+                <a href="https://github.com/bvig0/PA-Python" target="_blank">Link do Repositório</a>
+            </div>
+            <div class="project">
+                <h3>Imersões</h3>
+                <p>Todas as Imersões que participei.</p>
+                <a href="https://github.com/bvig0/Imersoes" target="_blank">Link do Repositório</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 bvig0. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
