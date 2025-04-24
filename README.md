@@ -13,7 +13,7 @@ Estes Links vão direto para o código.
 - [📜 Lista 5 - Exercícios estilização, seletores e especificidade ](pwI-lista-5)  
 - [📜 Lista 6 - Exercício HTML, CSS, Box Model, Posicionamento, Box-Sizing, e Display](pwI-lista-6)
 - [📜 Lista 7 - Exercício Flex Box - Flex Container](pwI-lista-7)  
-- [📜 Lista 8 - Projeto - 1: craftsy-blended](./pwI-lista-8/pwI-lista-8.md)  
+- [📜 Lista 8 - Projeto - 1: craftsy-blended](pwI-lista-8)  
 
 ## 🚀 Outro Modo..  
 Clique no [link](https://github.com/bvig0/PW-I) e veja o Repositório original. Caso tenha uma lista ou algum exercício faltando, acesse o [link](https://github.com/bvig0/PW-I) e confira.
