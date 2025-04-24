@@ -17,10 +17,80 @@
                 <span>TABLETS</span>
                 <span>COMPUTADORES</span>
             </div>
-            
+
             <div>
                 <a href="/pwI-lista-8/pages/login.html" target="_blank">LOGIN</a>
                 <a href="/pwI-lista-8/pages/registro.html" target="_blank">REGISTRAR</a>
             </div>
         </nav>
     </header>
+<div class="container-pages">
+<form action="" id="registro">
+    <h1>REGISTRAR</h1>
+    <label for="nome">Nome</label><br>
+    <input class="registro-input" type="text" name="nome" placeholder="Seu nome aqui">
+    <p>Obrigatório.</p><br>
+    
+    <label for="email">Email</label><br>
+    <input class="registro-input" type="email" name="email" placeholder="email@email.com">
+    <p>Obrigatório.</p><br>
+    
+    <label for="email">Senha</label><br>
+    <input class="registro-input" type="password" name="senha" placeholder="senha">
+    <p>Obrigatório.</p><br>
+
+    <h2>País de nascimento</h2>
+    <select name="pais" id="pais">
+        <!-- Apenas coloquei os paises dos continentes sul-americanos -->
+        <option value="pais">Brasil</option>
+        <option value="pais">Argentina</option>
+        <option value="pais">Bolívia</option>
+        <option value="pais">Chile</option>
+        <option value="pais">Colômbia</option>
+        <option value="pais">Equador</option>
+        <option value="pais">Guiana</option>
+        <option value="pais">Paraguai</option>
+        <option value="pais">Peru</option>
+        <option value="pais">Suriname</option>
+        <option value="pais">Uruguai</option>
+        <option value="pais"> Venezuela</option>
+    </select>
+    <p>Obrigatório.</p><br>
+
+    <h2>Gênero</h2>
+    <input type="radio" name="genero">
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" name="genero">
+    <label for="feminino">Feminino</label>
+
+    <input type="radio" name="genero">
+    <label for="prefiro">Prefiro não dizer</label>
+    
+
+    <h2>Hobbies</h2>
+    <input type="checkbox" name="hobbie">
+    <label for="hobbie">Guitarra</label>
+
+    <input type="checkbox" name="hobbie">
+    <label for="hobbie">Futebol</label>
+
+    <input type="checkbox" name="hobbie">
+    <label for="hobbie">Tenis</label>
+
+    <input type="checkbox" name="hobbie">
+    <label for="hobbie">Programação</label>
+
+    <h2>Comentários</h2>
+    <textarea name="" id=""></textarea><br>
+    <input type="checkbox">
+    <label for="">Aceito os termos e condições.</label><br>
+
+    <button type="submit">Registrar</button>
+    <button type="reset">Cancelar</button>
+</form>
+</div>
+
+</body>
+
+</html>

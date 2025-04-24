@@ -132,3 +132,113 @@ aside section .container-2 .card {
 aside section .container-2 .card img {
     padding-bottom: 10px;
 }
+
+/* ------------------------------------------------------------------------------------------ */
+/* Container das demais páginas(Login e Registro) */
+.container-pages {
+    padding: 50px 0;
+    font-size: 1.5;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* LOGIN */
+#login {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#login h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#login label{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+ .login-input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.lembrar {
+    margin-left: 67%;
+}
+
+#login p{
+    color: red;
+    font-size: 1.5;
+    margin: 10px 0;
+}
+
+#login button {
+    color: var(--text-color-secundary);
+    background-color: rgb(17, 128, 164);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* REGISTRO */
+#registro {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#registro h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#registro label{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.registro-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#registro p{
+    color: red;
+    font-size: 1.5;
+    margin-bottom: 10px;
+}
+
+#registro h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#registro select {
+    width: 50%;
+    padding: 5px;
+}
+
+#registro textarea {
+    height: 200px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#registro button {
+    color: var(--text-color-secundary);
+    background-color: rgb(17, 128, 164);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    font-size: 1.5;
+    font-weight: bold;
+}
