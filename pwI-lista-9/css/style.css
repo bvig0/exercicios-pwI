@@ -2,7 +2,7 @@
 @import url('reset.css');
 /* ------------------------------------------------------------------------------------------ */
 
-body {
+#body-landpage {
     height: 100vh;
     max-width: 1400px;
     margin: 0 auto;
@@ -11,7 +11,6 @@ body {
 
 /* Cabeçalho */
 header {
-    grid-area: header;
     display: flex;
     color: var(--text-color);
     justify-content: space-between;
@@ -22,7 +21,7 @@ header {
 
 header span {
     font-size: 2rem;
-    margin: 0 30px;
+    margin: 0 25px;
 }
 
 header button {
@@ -35,26 +34,28 @@ header button {
 }
 /* O Principal */
 .container-grid {
+    position: relative;
     background-image: linear-gradient(to right, #1f0539, var(--color-Purple)); 
     display: grid;
     grid-template-areas:
-    "header   header"
     "main   img"
-    "main   img"
-    "footer footer";
+    "main   img";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
+    height: 825px;
     padding: 20px;
     border-radius: 20px;
 }
 
 .container-grid main {
+    position: absolute;
+    top: 50%;
     grid-area: main;
     margin-left: 25px;
     margin-top: 20px;
-    font-size: 2.5rem;
     row-gap: 20px;
+    color: var(--text-color);
 }
 
 .container-grid main span {
@@ -62,14 +63,55 @@ header button {
     color: var(--color-DarkPurple);
     padding: 10px;
     border-radius: 50px;
+    font-size: 2.5rem;
+
+}
+
+.container-grid h2 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+.container-grid p{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.container-grid button{
+    font-size: 2rem;
+    color: var(--color-DarkPurple);
+    background-color: var(--text-color);
+    padding: 15px;
+    width: 400px;
+    border-radius: 200px;
+}
+
+.container-grid button a{
+    color: var(--text-color);
+    background-color: var(--color-DarkPurple);
+    padding: 5px;
+    border-radius: 50%;
 }
 
 .container-grid img {
     grid-area: img;
 }
 
-footer {
-    grid-area: footer;
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+
+}
+
+footer a {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin: 0 100px;
 }
 /* ------------------------------------------------------------------------------------------ */
 /* TABULEIRO DE XADREZ */
@@ -106,3 +148,4 @@ footer {
 .casa {
     border: 1px solid black;
 }
+/* ------------------------------------------------------------------------------------------ */
