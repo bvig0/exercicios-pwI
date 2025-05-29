@@ -15,7 +15,7 @@ Estes Links vão direto para o código.
 - [📜 Lista 7 - Exercício Flex Box - Flex Container](pwI-lista-7)  
 - [📜 Lista 8 - Projeto - 1: craftsy-blended](pwI-lista-8)  
 - [📜 Lista 9 - Projeto - 2:]() [clone de calculadora](./pwI-lista-9/pages/calculadora.html) e [clone landing-page](./pwI-lista-9/land-page)
-- [📜 Lista 10 - Projeto: mobile-first](./pwI-lista-10/pwI-lista-10.md)  
+- [📜 Lista 10 - Projeto: mobile-first](./pwI-lista-10)  
 
 ## 🚀 Outro Modo..  
 Clique no [link](https://github.com/bvig0/PW-I) e veja o Repositório original. Caso tenha uma lista ou algum exercício faltando, acesse o [link](https://github.com/bvig0/PW-I) e confira.
