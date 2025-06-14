@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Clique 'F5' para poder rodar o código de novo (RESPOSTA ESTA NO CONSOLE.LOG).</h1>
+    <script>
+        //         Classificação por nota
+
+        // 9+ → A, 7-8 → B, 5-6 → C, <5 → D.
+
+        let nota = Number(prompt('Digite a sua nota em número para ser convertida em letra'))
+        if (nota < 5) {
+            alert('Sua nota é I (ou D como no enunciado).')
+        }
+        else if (nota <= 6) {
+            alert('Sua nota é R (ou C como no enunciado).')
+        }
+        else if (nota <= 8) {
+            alert('Sua nota é B.')
+        }
+
+        else if (nota <= 10) {
+            alert('Sua nota é MB (ou A como no enunciado).')
+        }
+
+        else{
+            alert('Nota inválida.')
+        }
+    </script>
+</body>
+
+</html>

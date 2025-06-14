@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Clique 'F5' para poder rodar o código de novo.</h1>
+    <p>Fiz apenas estes códigos do dificil.</p>
+    <script>
+        // Jogo: pedra, papel ou tesoura
+        // Simule o jogo com duas variáveis e if.
+
+        // Exercício 13 - JOKENPÔ
+
+// Opções possíveis
+const opcoes = ['Pedra', 'Papel', 'Tesoura'];
+
+// Escolha aleatória do computador
+const computador = opcoes[Math.floor(Math.random() * opcoes.length)];
+
+alert('1 - Pedra | 2 - Papel | 3 - Tesoura');
+
+// Entrada do jogador
+let entrada = prompt('Digite a sua jogada: ').trim();
+
+// Converte número para texto correspondente
+let jogador = '';
+if (entrada === '1') {
+    jogador = 'Pedra';
+} else if (entrada === '2') {
+    jogador = 'Papel';
+} else if (entrada === '3') {
+    jogador = 'Tesoura';
+}
+
+// Verifica se a jogada é válida
+if (jogador === 'Pedra' || jogador === 'Papel' || jogador === 'Tesoura') {
+    
+    // Lógica do jogo
+    if (
+        (jogador === 'Pedra' && computador === 'Papel') ||
+        (jogador === 'Papel' && computador === 'Tesoura') ||
+        (jogador === 'Tesoura' && computador === 'Pedra')
+    ) {
+        alert(`Você perdeu usando ${jogador}! Computador venceu usando ${computador}.`);
+    } else if (
+        (jogador === 'Pedra' && computador === 'Tesoura') ||
+        (jogador === 'Papel' && computador === 'Pedra') ||
+        (jogador === 'Tesoura' && computador === 'Papel')
+    ) {
+        alert(`Você venceu usando ${jogador}! Computador perdeu usando ${computador}.`);
+    } else if (jogador === computador) {
+        alert('Empate!!');
+    }
+
+} else {
+    alert('Inválido. Fim de jogo!');
+}
+
+    </script>
+</body>
+
+</html>
