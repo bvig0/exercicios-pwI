@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>7 - Calculadora com if</h1>
+    <p>Peça operação: +, -, *, / e use if/else.</p>
+
+    <script> 
+        let numeroUm = Number(prompt("Digite um valor: "));
+        let numeroDois = Number(prompt("Digite um valor: "));
+
+        let escolhaOperador = prompt('Escolha o operador: \n (+)-Somar | (-)-Subtrair | (*)-Multiplicar | (/)-Dividir');
+
+        
+        if(escolhaOperador == '+'){
+            alert(`Soma: ${numeroUm + numeroDois}`);
+        }
+        
+        else if (escolhaOperador == '-'){
+            alert(`Subtração: ${numeroUm - numeroDois}`);
+        }
+        
+        else if (escolhaOperador == '*'){
+            alert(`Multiplicação: ${numeroUm * numeroDois}`);
+        }
+        
+        else if (escolhaOperador == '/'){
+            alert(`Divisão: ${numeroUm / numeroDois}`);
+        }
+        
+        else{
+            alert('Inválido.')
+        }
+
+        // switch (escolhaOperador) {
+        //     case '1':
+        //         alert('1')
+        //         break;
+
+        //     case '2':
+        //         alert('2')
+        //         break;
+        
+        //     default:
+        //         break;
+        // }
+
+    </script>
+</body>
+</html>

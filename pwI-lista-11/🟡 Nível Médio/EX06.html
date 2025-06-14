@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>6 - Aprovado ou reprovado</h1>
+    <p>Nota ≥ 6 → aprovado, senão reprovado.</p>
+
+    <script>
+        let nota = Number(prompt('Digite sua nota: '));
+        if (nota > 10){
+         alert('Digite um valor menor que dez.');
+        }
+
+       else if (nota >= 6){
+        alert('Aprovado!');
+       }
+        
+       else if (nota < 6){
+        alert('Reprovado!');
+       }
+
+
+       else{
+        alert('Valor inválido.');
+       }
+
+    </script>
+</body>
+
+</html>

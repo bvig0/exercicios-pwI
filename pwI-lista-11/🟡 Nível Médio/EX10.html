@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Clique 'F5' para poder rodar o código de novo.</h1>
+    <script>
+// Cálculo de IMC
+// Receba peso e altura e diga se o IMC é normal, sobrepeso etc.
+        let altura = Number(prompt("Digite sua altura: "));
+        let peso = Number(prompt("Digite o seu peso: "));
+        let imc = peso / (altura * altura);
+
+        if(imc <=  18.5){
+            alert(`Você é abaixo do peso com ${imc.toFixed(2)}.`);
+        }
+
+        else if (imc <= 24.9){
+            alert(`Você é peso normal com ${imc.toFixed(2)}.`);
+        }
+
+        else if (imc <=29.9){
+            alert(`Você é sobrepeso com ${imc.toFixed(2)}.`);
+        }
+
+        else if (imc >= 30){
+            alert(`Você é obeso com ${imc.toFixed(2)}.`);
+        }
+
+
+    </script>
+</body>
+
+</html>
